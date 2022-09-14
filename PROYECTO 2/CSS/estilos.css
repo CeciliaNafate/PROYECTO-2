@@ -1,0 +1,40 @@
+:root{
+    --paddin-container: 100px 0;
+    --color-title: white; 
+}
+
+body{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: whitesmoke;
+    padding: var(--paddin-container);
+}
+
+.hero{
+width: 100%;
+height: 100vh;
+min-height: 600px;
+max-height: 800px;
+position: relative;
+grid-template-rows: 100px 1fr;
+}
+
+.hero::before{
+    content: ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../imagenes/fondo1.png);
+}
+
+.nav{
+    --padding-container:0;
+}
