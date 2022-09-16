@@ -16,14 +16,11 @@
             <li class="nav__items">
                 <a href="#" class="nav__links">Inicio</a>
             </li>
-            <li class="nav__items">
-                <a href="#" class="nav__links">Datos interesantes</a>
-            </li>
             <center><img src="imagenes/fondo1-2.jpg" width="100%" height="600px"></center>
         </UL>
 
     <section class="hero__container container">
-        <h2 class="hero__title">APLICACIONES WEB PROGRESIVAS</h2>
+        <h1 align="right">APLICACIONES WEB PROGRESIVAS</h1>
         <p class="hero__paragraph">Las aplicaciones web progresivas o PWA, no son una tecnología nueva pero últimamente están todavía más de moda. Esto después de que Microsoft anunciara que Windows las soportaría de forma nativa. También están disponibles en Google Chrome, Firefox y Safari. </p>
     </section>
 
@@ -35,10 +32,63 @@
    <hr>
    <br> 
     <h2 class="hero__paragraph">¿Qué son las aplicaciones web progresivas?</h2>
-    <p>Las aplicaciones web progresivas (PWA) son una nueva generación de aplicaciones que aprovechan las principales tecnologías web (HTML, CSS y JavaScript) para crear interfaces para los servicios de Internet. A diferencia de las aplicaciones móviles o las de escritorio, estas PWA pueden ejecutarse en cualquier navegador compatible con los estándares, además de otras ventajas como las notificaciones push, el rendimiento o el incremento de su funcionalidad según las capacidades del dispositivo y de ahí su denominación Progressive.
+    <p align="right">Las aplicaciones web progresivas (PWA) son una nueva generación de aplicaciones que aprovechan las principales tecnologías web (HTML, CSS y JavaScript) para crear interfaces para los servicios de Internet. A diferencia de las aplicaciones móviles o las de escritorio, estas PWA pueden ejecutarse en cualquier navegador compatible con los estándares, además de otras ventajas como las notificaciones push, el rendimiento o el incremento de su funcionalidad según las capacidades del dispositivo y de ahí su denominación Progressive.
+        <br>
         <br>Las aplicaciones web han estado luchando por su implantación desde que los navegadores adquirieron mayores capacidades que mostrar texto e imágenes. Inicialmente, estas aplicaciones web eran torpes y pesadas y simplemente no podían competir con las de escritorio, las clásicas que tenemos que instalar en nuestros equipos. La llegada de miles de apps móviles ante la explosión de venta de smartphones ofreció otro mundo de posibilidades. Las aplicaciones web progresivas se sitúan entre ambas, se comportan como webs nativas, pero usan tecnologías web.
     </p>
-    </section>
+    <br>
+    <center><img src="imagenes/imagen2.png" width="30%" height="300px"></center>
+    <hr>
+    <br>
+    <h1 align="center">CARACTERÍSTICAS DE LAS APLICACIONES WEB PROGRESIVAS</h1>
+    <br>
+    <p>Este tipo de aplicaciones intentan llevar la usabilidad de una aplicación móvil nativa al conjunto de características de un navegador moderno, aprovechando al máximo los avances en ambas áreas de desarrollo, ofreciendo ventajas evidentes al permitir a los usuarios ejecutarlas directamente desde el escritorio sin pasos adicionales. También pueden trabajar fuera de línea, aunque no hace falta decir que la mayoría de servicios de Internet necesitan conexión.
+        <br>Los conceptos de una PWA vienen definidos por:
+        <ul>
+            <li>Universalidad: una PWA debe funcionar sin problemas para cada usuario, independientemente de su navegador web.</li>
+            <li>Responsive: debe funcionar con cualquier dispositivo, ordenador portátil, tablet o teléfono inteligente.</li>
+            <li>Diseño: debe imitar las aplicaciones móviles nativas, es decir, menús simplificados y fáciles de encontrar, con una interactividad simple para funciones avanzadas.</li>
+            <li>Seguridad: PWA deben usar siempre HTTPS para mantener seguros los datos del usuario.</li> 
+            <li>Actualizaciones: los PWA se mantienen actualizados y ofrecen las últimas versiones de un servicio o sitio.</li>
+            <li>Descubrimiento: los usuarios deben poder encontrar fácilmente las PWA y ser identificables como una aplicación, en lugar de un sitio web.</li>
+            <li>Instalación: desde cualquier navegador sin pasos adicionales y sin necesidad de descargas desde tiendas de aplicaciones.</li>
+            <li>Compartir: PWA solo requiere una única URL para compartir, sin ninguna instalación.</li>
+        </ul>
+        <br>
+        <center><img src="imagenes/imagen3.png" width="50%" height="500"></center>
+    </p>
+    <table border="1px">
+        <h1>HISTORIA</h1>
+        <p>La historia de las aplicaciones web progresivas se remonta al lanzamiento del iPhone original que revolucionó la industria de muchas más maneras de las que pensamos. Apple no tenía en sus orígenes una tienda como la App Store y firmó un convenio con desarrolladores móviles externos para crear apps para el iPhone. También organizó un concurso de desarrollo de JavaScript en teléfonos móviles e incluyó una serie de metatags en Safari para instalar un icono y acceso directo hacia una web en el escritorio de iOS, pudiendo mostrar el mismo con una pantalla de inicio personalizada y sin el framework y controles propios del navegador web.
+            Google retomó la idea y soportó las instalaciones de aplicaciones móviles en Chrome a partir de Android 4.0 como si fueran aplicaciones nativas del sistema. La integración de las PWA ha terminado llegando a todas las plataformas: iOS, Android, Windows, macOS o Linux, y Google se ha convertido en uno de sus principales valedores.</p>
+    </table>
+    <center><img src="imagenes/imagen4-2.png" width="60%" height="500"></center>
+    <h2>¿Como funcionan?</h2>
+    <p><img src="imagenes/imagen5-2.png">La clave de las aplicaciones web progresivas son los llamados service workers. Es un script (un proxy controlable que se ejecuta entre el navegador y el servidor) «separado de una página web, abriendo la puerta a funciones que no necesitan una página o la interacción del usuario». Como tal, estos service workers forman la base del estándar PWA, utilizando caché web para obtener resultados casi instantáneos. 
+        Los service workers solo duran mientras se requiera su acción. En una PWA, cuando haces clic en algo o usas una función, uno de ellos entra en acción, procesa el evento decidiendo si la caché sin conexión puede completar la solicitud. La idea es que haya múltiples cachés fuera de línea para que PWA la selecciones, lo que brinda una gama mucho más amplia de funcionalidades sin conexión. 
+        Además, la caché no es solo para aumentos de velocidad fuera de línea. Por ejemplo, si ejecutas una PWA, pero tu conexión es extremadamente irregular el service workers puede servir una caché anterior, en pleno funcionamiento, sin interrumpir la experiencia. De hecho, hay sitios web, tan bien implementados, que cargan de manera rapidísima, incluso más rápido que una app nativa.</p>
+    <br>
+        <h2>Soporte de navegadores</h2>
+    <br>
+    <p>Hay dos requisitos para usar una aplicación web progresiva: un navegador compatible y un servicio habilitado. Webs como IsServicesWorrkedready permiten verificar la compatibilidad de los navegadores con PWA y otros como CanIUse, se especializan en enumerar la implementación de esta tecnología en cada por cada versión y navegador. Por ejemplo, si buscas por service workers en la barra de búsqueda, encontrarás una tabla que muestra el número de versión con el que cada navegador los implementó. Desglosando el estado actual de soporte:</p>
+    <br>
+    <ul>
+        <li>Navegador de escritorio (Soporte completo): Chrome, Firefox, Opera, Edge, Safari</li>
+        <br>
+        <li>Navegador de escritorio (soporte parcial / versión desactualizada): QQ, Baidu</li>
+        <br>
+        <li>Navegador móvil (soporte completo): Chrome, Firefox, Safari, UC Browser, Samsung internet, Mint Browser, Wechat</li>
+        <br>
+        <li>Navegador móvil (soporte parcial / versión desactualizada): QQ, Android Browser, Opera Mobile</li>
+    </ul>
+    <br>
+    <br>
+    <p>Confirmamos que los principales navegadores web son compatibles con PWA. Edge Chromium y Safari son las adiciones más recientes a la lista completa de soporte. Por el contrario, otros alternativos como QQ y Baidu ahora usan versiones obsoletas y, como tales, han caído al segundo nivel.</p>
+    <br>
+    <img src="imagenes/imagen6-2.png" width="100%" height="500">
+    <p><h4>Las aplicaciones web han estado luchando por su implantación desde que los navegadores adquirieron mayores capacidades que mostrar texto e imágenes. Inicialmente, estas aplicaciones web eran torpes y pesadas y simplemente no podían competir con las de escritorio, las clásicas que tenemos que instalar en nuestros equipos. La llegada de miles de apps móviles ante la explosión de venta de smartphones ofreció otro mundo de posibilidades. Las aplicaciones web progresivas se sitúan entre ambas, se comportan como webs nativas, pero usan tecnologías web.</h4></p>
+    <br>
+    <font size=3><p align="center">Cecilia Monserrat Escobar Nafate   cecilia.escobar63@unach.mx</p></font>
     </header>
 </body>
 </html>
